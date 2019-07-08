@@ -1,0 +1,41 @@
+body {
+ background-color:blue;
+}
+
+h1 {
+ font-family: 'Dancing Script', cursive;
+}
+
+#startGame {
+
+   animation:1s blinker linear infinite;
+   -webkit-animation:1s blinker linear infinite;
+   -moz-animation:1s blinker linear infinite;
+
+    color: purple;
+   }
+
+   @-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    }
+
+   @-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    }
+
+   @keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    }
+
+.gameBox {
+ border-style: solid; 
+ border-width:2px;
+ background-color:red;
+ float:left;
+}
